@@ -1,0 +1,45 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* Image styling */
+img {
+    height: 80vh;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    transition: width 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+/* Cards container styling */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+/* Card sizes */
+.card-medio {
+    width: 15vw;
+}
+
+.card-grande {
+    width: 45vw;
+}
+
+.card-pequeno {
+    width: 7.5vw;
+}
